@@ -109,8 +109,11 @@
            gap:90px;
            padding-left:80px;
        }
-        .circle2{
-        width:150px;}
+     .wrapper>p{
+            background-color:white;
+            width:450px;
+            height:620px;
+}
         .one{
            padding-left:200px;
        }
@@ -181,8 +184,24 @@
         .image4{
             height:580px;
             width:600px;
-            padding-left:100px;
+        }
+        .para2>button{
+            width:213px;
+            height:57px;
+            padding:10px 35px;
+            border-radius:10px;
+            border-color: #d5e76c;
+            background-color:#d5e76c;
+            color:#2799b1;
+            font-size:medium;
+             text-align:center;
+             position: relative;
+             left:100px
+         }
+        
+        .circle2{
         height:150px;
+        width:150px;
         background-image: linear-gradient(to right,#2799b1 ,#d5e76c);
         border-radius: 70% ;
         margin-bottom:000px;
@@ -371,19 +390,32 @@
             width:250px;
          }
 
-         .block{
-             display: grid;
-             gap:10px;
-             height:500px;
-             width:600px;
-             
-            }
+            .block{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap:10px;
+                height:500px;
+                width:600px;
+                position:relative;
+               left:500px;
+               bottom:700px;
+               right:1000px;
+               
+               }
+            .block>div{
+              border:  20px solid white ;
+              background-color: white;
+              margin:20px;
+           }
             .help>button{
-                padding-left:15px;
-                width:220px;
+                width:213px;
                 height:57px;
-                position: relative;
-                left:30px;
+                padding:10px 35px;
+                border-radius:10px;
+                border-color: #d5e76c;
+                background-color:#d5e76c;
+                color:#2799b1;
+                font-size:medium;
             }
          .block>div{
            margin:20px;
@@ -392,7 +424,6 @@
             font-size:x-large;
             top:0px;
         }
-
         .circle11{
             background-color: #d5e76c;
             width:130px;
@@ -400,6 +431,8 @@
             border-radius:250px;
             margin:35px;
             bottom:30px;
+            position: relative;
+            bottom:10px;
         }
         .circle12{
             background-color: #d5e76c;
@@ -408,6 +441,8 @@
             border-radius:250px;
             margin:35px;
             bottom:30px;
+            position: relative;
+            bottom:10px;
         }
         .circle13{
             background-color: #d5e76c;
@@ -416,30 +451,40 @@
             border-radius:250px;
             margin:35px;
             bottom:30px;
+            position: relative;
+            bottom:10px;
         
         }
-        .circle14{
+        .circle16{
+            background-color: #d5e76c;
             width:130px;
             height:130px;
             border-radius:250px;
             margin:35px;
             bottom:30px;
+            position: relative;
+            bottom:10px;
+                  }
+        .circle14{
+            background-color: #d5e76c;
+            width:130px;
+            height:130px;
+            border-radius:250px;
+            margin:35px;
+            bottom:30px;
+            position: relative;
+            bottom:10px;
         }
         .circle15{
+            background-color: #d5e76c;
             width:130px;
             height:130px;
             border-radius:250px;
             margin:35px;
             bottom:30px;
+            position: relative;
+            bottom:10px;
         }
-        .circle16{
-            
-            width:130px;
-            height:130px;
-            border-radius:250px;
-            margin:35px;
-            bottom:30px;
-                  }
         .circle11>img{
                     margin-top:20px;
                     margin-left:20px;
@@ -475,6 +520,37 @@
                 margin-left:20px;
                 height:70px;
                 width:70px;}
+            .circle11>p{
+                  position: relative;
+                  top:15px;
+                  left:19px;
+            }
+            .circle12>p{
+                position: relative;
+                top:15px;
+                left:19px;
+          }
+          .circle13>p{
+            position: relative;
+            top:15px;
+            left:19px;
+      }
+      .circle14>p{
+        position: relative;
+        top:15px;
+        left:19px;
+  }
+  .circle15>p{
+    position: relative;
+    top:15px;
+    left:16px;
+}
+.circle16>p{
+    position: relative;
+      bottom:7px;
+    left:16px;
+    right:10px;
+}
          .one1{
             width:220px;
             height:180px;
@@ -505,40 +581,53 @@
             height:180px;
             border-radius:20px;
          } 
-         
+         .shead{
+            color: #2799b1;
+            font-size:x-large;
+        }
    
          /*page7*/
          
          .page7{
-             height:450px;
+             height:400px;
              width:1800px;
              background-color:white;
          }
 
          .flexbox{
-             display:flex;
-             gap:40px;
-             background-attachment:white;
-             height:500px;
-             width:1500px;
+            display:flex;
+            gap:40px;
+            background-attachment:white;
+            height:500px;
+            width:1500px;
             position:relative;
-            left:100px;
+            left:50px;
             bottom:400px;
          }
          .flexbox > div {
             background-color:white;
             margin: 10px;
             padding: 20px;
-            font-size: 30px;
+            font-size:40px;
             width:300px;
             height:700px;
+            font-weight: 300;
+            padding-left:10px;
           }
-          button{
+          .array{
+           margin-right:20px;
             font-size:20px;
             padding:15px 60px;
             border-radius:20px;
             background-color:rgb(209, 209, 86);
             color:#2799b1;
+          }
+          .online{
+              width:10px;
+              position: relative;
+              left:80px;
+              bottom:80px;
+              
           }
         .code1{
             width:290px;
@@ -570,7 +659,13 @@
          }
 
     /*page8*/
-
+  .page8{
+      background-color: #f1f1f1;
+  }
+  .submit{
+      width:700px;
+      height:60px;
+  }
 .forms input {
  padding: 10px 100px 10px 10px;
  border-top-style: none;
@@ -580,6 +675,7 @@
  margin-left: 10px;
 }
 label{
+    font-size: x-large;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -612,7 +708,14 @@ button{
     color:rgb(209, 209, 86);
     color:#2799b1;
 }
-.ut{
+.form{
+    width:700px;
+    height:620px;
+    position: relative;
+    left:100px;
+    top:200px;
+}
+.ut{    
           height:600px;
           width:500px;
           line-height: 40px;
@@ -620,10 +723,15 @@ button{
           left:1050px;
           bottom:400px;
           font-family:  sans-serif;
+          background-color:white;
       }
       .ut>p{
           padding-top:100px;
           font-size:medium;
-         
+          font-family: open sans;
       }
-    }
+      .form>label{
+          font-size: xx-large;
+         
+
+      }

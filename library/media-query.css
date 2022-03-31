@@ -153,8 +153,10 @@
      .image4{
          height:580px;
          width:600px;
-         padding-left:100px;
+         padding-left:100px;}
+    .circle2 {   
      height:150px;
+     width:150px;
      border-radius: 70% ;
      margin-bottom:000px;
      margin-left:40px;
@@ -574,7 +576,7 @@
            font-weight: bold;
            color:rgb(209, 209, 86);
            color:#2799b1;
-           background-color: 
        }
+
        
     }
